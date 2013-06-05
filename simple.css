@@ -1,0 +1,30 @@
+div[id^="ad"],
+div.sales-poll,
+#homeBirthdayPart + div.side-item,
+.nav-main, 
+#appDynamic, 
+.site-menu-apps-locked, 
+.site-menu-apps-appitem,
+.site-menu-apps-others {
+	display: none !important;
+}
+.nav-other {
+	/*width: 100%;*/
+}
+.navigation-wrapper, #container {
+	/*width: 100% !important;*/
+}
+.nav-main {
+
+}
+a, img {
+	border: 0px;
+}
+
+a[stats="pf_commonfriend"] img,a.avatar,a[namecard] img, a img[src*="hdn"] {
+	border-radius: 50% !important;
+}
+a[stats="pf_headalbum"] img[stats] {
+	border-radius: 8px !important;
+	box-shadow: 0px 0px 4px #333 !important;
+}
